@@ -8,8 +8,13 @@
     body {
       background-color: black;
     }
-    p {
-      font-color: transparent;
+    a {
+      text-decoration: none;
+      color: transparent;
+      background: linear-gradient(to bottom, #A75DE8, #5E3482);
+      -webkit-background-clip: text;
+      background-clip: text;
+      transition: background 0.3s ease;
     }
     .pgrad {
       background: linear-gradient(to bottom, #A75DE8, #5E3482);
@@ -17,17 +22,21 @@
       background-clip: text;
       font-color: transparent;
     }
-    .pgrad:hover {
+    a:hover {
+      text-decoration: none;
+      color: transparent;
       background: linear-gradient(to bottom, #5DEB62, #29882D);
       -webkit-background-clip: text;
       background-clip: text;
-      font-color: transparent;
+      transition: background 0.3s ease;
     }
-    .pgrad:visited {
-      background: linear-gradient(to bottom, #A75DE8, #5E3482);
+    a:visited {
+      text-decoration: none;
+      color: transparent;
+      background: linear-gradient(to bottom, #5DEB62, #29882D);
       -webkit-background-clip: text;
       background-clip: text;
-      font-color: transparent;
+      transition: background 0.3s ease;
     }
   </style>
 </head>
